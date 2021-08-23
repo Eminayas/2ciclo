@@ -34,10 +34,14 @@ class Pila:
     def longitud(self):
         return self.__tope
             
-pila = Pila(4)
-pila.push(4)        
-pila.push(6) 
-print("Tamaño: {} elemnentos de {}".format(pila.longitud(), pila.size))
+# pila = Pila(4)
+# print(pila.empty())
+# pila.push(4)        
+# pila.push(6) 
+# pila.push(2)    
+# pila.push(7)
+# pila.push(9)
+# print("Tamaño: {} elemnentos de {}".format(pila.longitud(), pila.size))
 # pila.push(2)    
 # pila.push(7)
 # pila.push(9)   
